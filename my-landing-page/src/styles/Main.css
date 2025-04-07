@@ -1,0 +1,20 @@
+.main-container {
+  width: 1000px;
+  padding: 100px 0;
+}
+
+.about-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.image-container {
+  border-radius: 5px;
+}
