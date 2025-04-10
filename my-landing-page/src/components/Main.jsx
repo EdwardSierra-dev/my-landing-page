@@ -4,6 +4,7 @@ import '../styles/Main.css';
 //import Foto from '../images/img2.png';
 import Foto from '../images/ghibli-style-photo.jpg';
 import WorkExperienceCard from './WorkExperienceCard';
+import ProjectCard from './ProjectCard';
 
 function Main () {
   return (
@@ -13,11 +14,11 @@ function Main () {
         <h1>Sobre mi</h1>
         <div className='about-me-container'>
           <div className='image-container'>
-            <img src={Foto} className='profile-img' alt='imagen de perfil edward sierra' />
+            <img src={Foto} className='profile-img' alt='imagen de perfil edward sierra'/>
           </div>
           <div className='text-about-me'>
             <p>
-              Hola, soy Edward Sierra, <strong>desarrollador web junior y analista QA</strong>, con más de 6 años de
+              Hola, soy Edward Sierra, <strong>Desarrollador Web Junior y Analista QA</strong>, con más de 6 años de
               experiencia en infraestructura y mesa de ayuda, y más de 3 años como analista de pruebas.
             </p>
             <p>
@@ -48,7 +49,7 @@ function Main () {
             companyName={'Choucair Testing'}
             dateWorkExperience={'2022 - 2024'}
             descriptionWorkExperience={
-              'de aqui me sali porque no me gustaba el ambiente de trabajo, y la calidad de los sistemas. '
+              '... ahi miramos la parlaneta de los sistemas, y la calidad de los mismos. '
             }
           />
           <WorkExperienceCard
@@ -56,13 +57,14 @@ function Main () {
             companyName={'Alubaq'}
             dateWorkExperience={'2017 - 2022'}
             descriptionWorkExperience={
-              'Aqui hice de todo un poquito, domicilio de meriendas y almuerzos a la ventana al mundo '
+              '... ahi miramos la parlaneta de los sistemas, y la calidad de los mismos. '
             }
           />
         </div>
       </section>
       <section id='projects-section'>
         <h1>Proyectos</h1>
+        <ProjectCard />
       </section>
 
     </main>
