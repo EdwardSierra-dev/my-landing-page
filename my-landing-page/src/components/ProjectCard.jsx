@@ -1,19 +1,19 @@
 import React from 'react';
 import '../styles/ProjectCard.css';
 
-function ProjectCard () {
+function ProjectCard (props) {
   return (
     <div className='project-card-container'>
       <div className='project-image-container'>
         <img src="" alt="" className='image-project'/>
       </div>
       <div className='project-info-container'>
-        <h3 className='project-title'>Project Title</h3>
-        <p className='project-description'>Project description goes here. This is a brief summary of the project.</p>
+        <h3 className='project-title'>{props.projectTitle}</h3>
+        <p className='project-description'>{props.projectDescription}</p>
         <div className='project-technologies'>
-          <span className='technology'>React</span>
-          <span className='technology'>JavaScript</span>
-          <span className='technology'>CSS</span>
+          <span className='technology'>{props.toolOne}</span>
+          <span className='technology'>{props.toolTwo}</span>
+          <span className='technology'>{props.toolThree}</span>
         </div>
       </div>
     </div>

@@ -1,5 +1,13 @@
+.project-card-container {
+  display: flex;
+}
+
 .project-image-container {
   width: 15em;
   height: 12em;
   background-color: red;
+}
+
+.project-image-container {
+  margin-right: 60px;
 }

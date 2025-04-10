@@ -64,7 +64,37 @@ function Main () {
       </section>
       <section id='projects-section'>
         <h1>Proyectos</h1>
-        <ProjectCard />
+        <ProjectCard 
+          projectTitle={'CV / Landing Page Edward Sierra'}
+          projectDescription={'Curriculum de Edward Sierra'}
+          toolOne={'React'}
+          toolTwo={'Vite'}
+          toolThree={'JS'}
+        />
+        <ProjectCard 
+          projectTitle={'Web de Rick y Morty'}
+          projectDescription={'Clon de la web/api de rick y morty usando datos estáticos almacenados en un JSON de manera local'}
+          toolOne={'React'}
+          toolTwo={'Vite'}
+          toolThree={'JSON'}
+        />
+        <ProjectCard 
+          projectTitle={'Página web Soliwe LTDA'}
+          projectDescription={'Página web con la información importante de la empresa...'}
+          toolOne={'WordPress'}
+        />
+        <ProjectCard 
+          projectTitle={'BioExtint'}
+          projectDescription={'Página web con la información importante de la empresa...'}
+          toolOne={'WordPress'}
+        />
+        <ProjectCard 
+          projectTitle={'Alubaq'}
+          projectDescription={'Empresa de alumbrado público de Barranquilla'}
+          toolOne={'DreamWeaver'}
+          toolTwo={'Vanilla JS'}
+          toolThree={'Apache2'}
+        />
       </section>
 
     </main>
