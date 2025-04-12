@@ -10,23 +10,23 @@ function Main () {
   return (
     <main className='main-container'>
       <section id='about-me-section' className='about-container'>
-        <span></span>
+        <span className='logo-section'></span>
         <h1>Sobre mi</h1>
-        <div className='about-me-container'>
+        <div className='about-me-container' id='about-me'>
           <div className='image-container'>
             <img src={Foto} className='profile-img' alt='imagen de perfil edward sierra'/>
           </div>
           <div className='text-about-me'>
-            <p>
+            <p className='paragraph-about-me'>
               Hola, soy Edward Sierra, <strong>Desarrollador Web Junior y Analista QA</strong>, con más de 6 años de
               experiencia en infraestructura y mesa de ayuda, y más de 3 años como analista de pruebas.
             </p>
-            <p>
+            <p className='paragraph-about-me'>
               Uno de mis logros más significativos fue <strong>la implentación de mi primera página web</strong> para la empresa de 
-              Alumbrado Público de mi ciudad. La desarrollé utilizando <strong>Dreamweaver, VanillaJS</strong> y la publiqué en un servidor 
-              <strong>Apache2</strong> en Linux. ¡Una experiencia que marcó mi camino como desarrollador web! 🥹
+              Alumbrado Público de mi ciudad. La desarrollé utilizando <strong>Dreamweaver, VanillaJS</strong> y la publiqué en un servidor
+              <strong> Apache</strong> en Linux. ¡Una experiencia que marcó mi camino como desarrollador web! 🥹
             </p>
-            <p>
+            <p className='paragraph-about-me'>
               En el área de QA, he trabajado como outsourcing, ejecutando pruebas funcionales y no funcionales en empresas del sector 
               retail y bancario, aportando a la calidad y mejora continua de sus sistemas.
             </p>

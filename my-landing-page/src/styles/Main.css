@@ -9,6 +9,14 @@
   justify-content: center;
 }
 
+.text-about-me {
+  font-size: 18px;
+}
+
+.paragraph-about-me {
+  padding-bottom: 12px
+}
+
 .profile-img {
   width: 250px;
   height: 250px;
@@ -17,6 +25,7 @@
 
 .image-container {
   border-radius: 5px;
+  padding-right: 1em;
 }
 
 a {
@@ -27,4 +36,8 @@ a {
 
 strong {
   color: #ff7043;
+}
+
+header {
+  padding-top: 15px;
 }

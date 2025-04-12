@@ -15,5 +15,5 @@ footer {
 .links-footer:hover {
   text-decoration: underline solid #ff7043;
   text-underline-offset: 3px;
-  transition: all .7s ease;
+  transition: all .5s ease;
 }

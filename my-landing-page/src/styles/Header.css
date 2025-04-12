@@ -9,3 +9,9 @@ li {
   display: inline-flex;
   padding: 0 12px;
 }
+
+.navbar-element:hover {
+  text-decoration: underline solid #ff7043;
+  text-underline-offset: 3px;
+  transition: all .5s ease;
+}

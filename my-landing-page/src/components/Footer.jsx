@@ -7,9 +7,9 @@ function Footer (){
       <div className='footer-container'>
         <div className='links'>
           <ul>
-            <li><a className='links-footer' href='' target=''>Sobre mi</a></li>
-            <li><a className='links-footer' href='' target=''>Proyectos</a></li>
-            <li><a className='links-footer' href='' target=''>Contacto</a></li>
+            <li><a className='links-footer' href='#about-me-section' target=''>Sobre mi</a></li>
+            <li><a className='links-footer' href='#projects-section' target=''>Proyectos</a></li>
+            <li><a className='links-footer' href='mailto:edward.sierrac@gmail.com' target=''>Contacto</a></li>
           </ul>
         </div>
         <div className='rights'>
