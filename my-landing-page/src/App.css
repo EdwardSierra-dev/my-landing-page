@@ -9,8 +9,16 @@
 }
 
 .App {
-  background-color: #0D1B2A;
+  background-color: #0d1b2a;
   justify-items: center;
   font-family: My-Font, sans-serif;
   color: #eaeaea;
+}
+
+h1 {
+  margin-bottom: 60px;
+}
+
+section {
+  margin-bottom: 130px;
 }

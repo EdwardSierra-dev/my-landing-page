@@ -1,17 +1,23 @@
 import React from 'react';
 import '../styles/Main.css';
-//import Foto from '../images/Foto_my_web.jpg';
-//import Foto from '../images/img2.png';
+import { FaUserAlt, FaBriefcase } from "react-icons/fa";
+import { PiBracketsCurly } from "react-icons/pi";
 import Foto from '../images/ghibli-style-photo.jpg';
 import WorkExperienceCard from './WorkExperienceCard';
 import ProjectCard from './ProjectCard';
+import Soliwel from '../images/soliwel-foto.png';
+import Alubaq from '../images/alubaq-foto.png';
 
 function Main () {
   return (
     <main className='main-container'>
       <section id='about-me-section' className='about-container'>
-        <span className='logo-section'></span>
-        <h1>Sobre mi</h1>
+        <div className='title-section'>
+          <span className='logo-section'>
+            <FaUserAlt />
+          </span>
+          <h1>Sobre mi</h1>
+        </div>
         <div className='about-me-container' id='about-me'>
           <div className='image-container'>
             <img src={Foto} className='profile-img' alt='imagen de perfil edward sierra'/>
@@ -34,14 +40,19 @@ function Main () {
         </div>
       </section>
       <section id='work-experience-section'>
-        <h1>Experiencia laboral</h1>
+      <div className='title-section'>
+          <span className='logo-section'>
+            <FaBriefcase />
+          </span>
+          <h1>Experiencia laboral</h1>
+      </div>
         <div className='work-experience-container'>
           <WorkExperienceCard 
             position={'Analista QA'}
             companyName={'Rhiscom'}
-            dateWorkExperience={'2024 - Actualidad'}
+            dateWorkExperience={'2024 - Actualmente'}
             descriptionWorkExperience={
-              '... ahi miramos la parlaneta de los sistemas, y la calidad de los mismos. '
+              'Soy Analista de Pruebas en modalidad outsourcing para una importante empresa del sector retail en Colombia. Ejecuto pruebas manuales y automatizadas, aplicando diversas técnicas de diseño de casos de prueba como valores límite, tablas de decisión, entre otras. He implementado y ejecutado más de 200 casos de prueba, asegurando una alta cobertura y calidad.'
             }
           />
           <WorkExperienceCard
@@ -49,7 +60,7 @@ function Main () {
             companyName={'Choucair Testing'}
             dateWorkExperience={'2022 - 2024'}
             descriptionWorkExperience={
-              '... ahi miramos la parlaneta de los sistemas, y la calidad de los mismos. '
+              'Realicé pruebas manuales validando funcionalidades críticas y automatizando el MVP utilizando Selenium y Java, aplicando el patrón de diseño Screenplay, para una empresa del sector financiero y bancario en Brasil.'
             }
           />
           <WorkExperienceCard
@@ -57,13 +68,18 @@ function Main () {
             companyName={'Alubaq'}
             dateWorkExperience={'2017 - 2022'}
             descriptionWorkExperience={
-              '... ahi miramos la parlaneta de los sistemas, y la calidad de los mismos. '
+              'Encargado de instalar, mantener y optimizar la infraestructura TI, asegurando que todo funcione de forma estable y segura. Implementé soluciones como Windows Server 2016, FreeNAS y Pfsense, además del desarrollo de la página web. Siempre en busca de mejorar la seguridad, rendimiento y disponibilidad de los sistemas.'
             }
           />
         </div>
       </section>
       <section id='projects-section'>
-        <h1>Proyectos</h1>
+      <div className='title-section'>
+          <span className='logo-section'>
+            <PiBracketsCurly />
+          </span>
+          <h1>Proyectos</h1>
+      </div>
         <ProjectCard 
           projectTitle={'CV / Landing Page Edward Sierra'}
           projectDescription={'Curriculum de Edward Sierra'}
@@ -78,7 +94,8 @@ function Main () {
           toolTwo={'Vite'}
           toolThree={'JSON'}
         />
-        <ProjectCard 
+        <ProjectCard
+          projectPhoto={Soliwel} 
           projectTitle={'Página web Soliwe LTDA'}
           projectDescription={'Página web con la información importante de la empresa...'}
           toolOne={'WordPress'}
@@ -88,7 +105,8 @@ function Main () {
           projectDescription={'Página web con la información importante de la empresa...'}
           toolOne={'WordPress'}
         />
-        <ProjectCard 
+        <ProjectCard
+          projectPhoto={Alubaq}  
           projectTitle={'Alubaq'}
           projectDescription={'Empresa de alumbrado público de Barranquilla'}
           toolOne={'DreamWeaver'}

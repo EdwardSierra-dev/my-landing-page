@@ -5,7 +5,7 @@ function ProjectCard (props) {
   return (
     <div className='project-card-container'>
       <div className='project-image-container'>
-        <img src="" alt="" className='image-project'/>
+        <img src={props.projectPhoto} alt='Foto del proyecto' className='image-project'/>
       </div>
       <div className='project-info-container'>
         <h3 className='project-title'>{props.projectTitle}</h3>

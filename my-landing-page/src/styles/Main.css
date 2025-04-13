@@ -28,6 +28,19 @@
   padding-right: 1em;
 }
 
+.title-section {
+  display: flex;
+}
+
+.logo-section {
+  padding-right: 2em;
+}
+
+svg {
+  width: 24px;
+  height: 24px;
+}
+
 a {
   text-decoration: none;
   font-size: 20px;

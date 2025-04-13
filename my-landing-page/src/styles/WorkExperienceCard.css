@@ -2,4 +2,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
+}
+
+.position-company{
+  color: #ff7043
+}
+
+.description-work-experience {
+  max-width: 40em;
+}
+
+.company-info {
+  padding-right: 7em;
+  max-width: 8em;
 }

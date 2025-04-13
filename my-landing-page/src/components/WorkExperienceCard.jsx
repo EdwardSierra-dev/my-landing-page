@@ -6,17 +6,17 @@ function WorkExperienceCard (props) {
     <div className='work-experience-card'>
       <div className='company-info'>
         <div className='position-company'>
-          {props.position}
+          <h3>{props.position}</h3>
         </div>
         <div className='name-company'>
-          {props.companyName}
+        <h4>{props.companyName}</h4>
         </div>
         <div className='date-work-experience'>
-          {props.dateWorkExperience}
+          <p>{props.dateWorkExperience}</p>
         </div>
       </div>
       <div className='description-work-experience'>
-        {props.descriptionWorkExperience}
+      <p>{props.descriptionWorkExperience}</p>
       </div>
     </div>
   );
