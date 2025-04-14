@@ -9,12 +9,27 @@
   border-radius: 10px;
 }
 
+.project-info-container {
+  max-width: 28em;
+}
+
 .project-image-container {
   width: 30em;
   height: 18em;
-  background-color: red;
 }
 
 .project-image-container {
   margin-right: 60px;
+}
+
+.project-title {
+  margin-bottom: 25px;
+}
+
+.project-description {
+  margin-bottom: 25px;
+}
+
+.technology {
+  margin-right: 25px;
 }

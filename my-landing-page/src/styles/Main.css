@@ -36,6 +36,17 @@
   padding-right: 2em;
 }
 
+.frase {
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-weight: 100;
+  font-size: 12px;
+}
+
 svg {
   width: 24px;
   height: 24px;

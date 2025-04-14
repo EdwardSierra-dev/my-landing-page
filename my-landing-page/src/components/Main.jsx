@@ -1,12 +1,13 @@
 import React from 'react';
 import '../styles/Main.css';
-import { FaUserAlt, FaBriefcase } from "react-icons/fa";
-import { PiBracketsCurly } from "react-icons/pi";
+import { FaUserAlt, FaBriefcase } from 'react-icons/fa';
+import { PiBracketsCurly } from 'react-icons/pi';
 import Foto from '../images/ghibli-style-photo.jpg';
 import WorkExperienceCard from './WorkExperienceCard';
 import ProjectCard from './ProjectCard';
 import Soliwel from '../images/soliwel-foto.png';
 import Alubaq from '../images/alubaq-foto.png';
+import RickMorty from '../images/rick-morty.png';
 
 function Main () {
   return (
@@ -80,19 +81,18 @@ function Main () {
           </span>
           <h1>Proyectos</h1>
       </div>
-        <ProjectCard 
-          projectTitle={'CV / Landing Page Edward Sierra'}
-          projectDescription={'Curriculum de Edward Sierra'}
-          toolOne={'React'}
-          toolTwo={'Vite'}
-          toolThree={'JS'}
-        />
-        <ProjectCard 
+        <ProjectCard
+          projectPhoto={RickMorty} 
           projectTitle={'Web de Rick y Morty'}
-          projectDescription={'Clon de la web/api de rick y morty usando datos estáticos almacenados en un JSON de manera local'}
+          projectDescription={'En este proyecto utilicé datos estáticos tomados de la API de Rick y Morty y los almacené en un archivo JSON para representar personajes de la serie. Los datos fueron renderizados mediante props en componentes reutilizables, permitiendo practicar el manejo de estructuras de datos, props, y renderizado dinámico en React.'}
           toolOne={'React'}
           toolTwo={'Vite'}
-          toolThree={'JSON'}
+        />
+        <ProjectCard
+          projectPhoto={Soliwel} 
+          projectTitle={'Página web Transportes Blue Trans S.A.S'}
+          projectDescription={'Diseño e implementación de una página web corporativa utilizando WordPress con el constructor Kubio. Como parte del proyecto, desarrollé una intranet personalizada con control de acceso mediante registro de usuarios, inicio de sesión y recuperación de contraseña. Esta intranet permite a los colaboradores acceder de forma segura a toda la información relacionada con el Sistema Integrado de Gestión (SIG) de la empresa.'}
+          toolOne={'WordPress'}
         />
         <ProjectCard
           projectPhoto={Soliwel} 
@@ -114,6 +114,8 @@ function Main () {
           toolThree={'Apache2'}
         />
       </section>
+      <h2 className='frase'>"Odié cada minuto del entrenamiento, pero me dije: 'No te rindas. Sufre ahora y vive el resto de tu vida como un campeón"</h2>
+      <h3 className='author'>Muhammad Ali</h3>
     </main>
   );
 }
