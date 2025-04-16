@@ -64,4 +64,6 @@ strong {
 
 header {
   padding-top: 15px;
+  position: fixed;
+  width: 100%;
 }
