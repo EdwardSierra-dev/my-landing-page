@@ -8,6 +8,7 @@ import ProjectCard from './ProjectCard';
 import Soliwel from '../images/soliwel-foto.png';
 import Alubaq from '../images/alubaq-foto.png';
 import RickMorty from '../images/rick-morty.png';
+import LogoReact from '../assets/icons/linux.svg';
 
 function Main () {
   return (
@@ -85,7 +86,7 @@ function Main () {
           projectPhoto={RickMorty} 
           projectTitle={'Web de Rick y Morty'}
           projectDescription={'En este proyecto utilicé datos estáticos tomados de la API de Rick y Morty y los almacené en un archivo JSON para representar personajes de la serie. Los datos fueron renderizados mediante props en componentes reutilizables, permitiendo practicar el manejo de estructuras de datos, props, y renderizado dinámico en React.'}
-          toolOne={'React'}
+          toolOne={LogoReact}
           toolTwo={'Vite'}
         />
         <ProjectCard
