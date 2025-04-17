@@ -7,8 +7,15 @@ import WorkExperienceCard from './WorkExperienceCard';
 import ProjectCard from './ProjectCard';
 import Soliwel from '../images/soliwel-foto.png';
 import Alubaq from '../images/alubaq-foto.png';
+import BioExtint from '../images/bioextint.png';
+import BlueTrans from '../images/blue-foto.png';
 import RickMorty from '../images/rick-morty.png';
-import LogoReact from '../assets/icons/linux.svg';
+import LogoReact from '../assets/icons/react_wordmark_dark.svg';
+import LogoVite from '../assets/icons/vitejs.svg';
+import LogoWordpress from '../assets/icons/wordpress.svg';
+import LogoElementor from '../assets/icons/elementor.svg';
+import LogoDreamweaver from '../assets/icons/dw.svg';
+import LogoJS from '../assets/icons/javascript.svg';
 
 function Main () {
   return (
@@ -80,39 +87,42 @@ function Main () {
           <span className='logo-section'>
             <PiBracketsCurly />
           </span>
-          <h1>Proyectos</h1>
+          <h1>Proyectos Web</h1>
       </div>
         <ProjectCard
           projectPhoto={RickMorty} 
           projectTitle={'Web de Rick y Morty'}
           projectDescription={'En este proyecto utilicé datos estáticos tomados de la API de Rick y Morty y los almacené en un archivo JSON para representar personajes de la serie. Los datos fueron renderizados mediante props en componentes reutilizables, permitiendo practicar el manejo de estructuras de datos, props, y renderizado dinámico en React.'}
           toolOne={LogoReact}
-          toolTwo={'Vite'}
+          toolTwo={LogoVite}
         />
         <ProjectCard
-          projectPhoto={Soliwel} 
+          projectPhoto={BlueTrans} 
           projectTitle={'Página web Transportes Blue Trans S.A.S'}
           projectDescription={'Diseño e implementación de una página web corporativa utilizando WordPress con el constructor Kubio. Como parte del proyecto, desarrollé una intranet personalizada con control de acceso mediante registro de usuarios, inicio de sesión y recuperación de contraseña. Esta intranet permite a los colaboradores acceder de forma segura a toda la información relacionada con el Sistema Integrado de Gestión (SIG) de la empresa.'}
-          toolOne={'WordPress'}
+          toolOne={LogoWordpress}
+          toolTwo={LogoElementor}
         />
         <ProjectCard
           projectPhoto={Soliwel} 
-          projectTitle={'Página web Soliwe LTDA'}
-          projectDescription={'Página web con la información importante de la empresa...'}
-          toolOne={'WordPress'}
+          projectTitle={'Página web Soliwel LTDA'}
+          projectDescription={'Finalicé la implementación de la página web de la organización y optimicé el uso de la base de datos, permitiendo la actualización dinámica del contenido con los nuevos cursos y capacitaciones ofrecidos.'}
+          toolOne={LogoWordpress}
+          toolTwo={LogoElementor}
         />
-        <ProjectCard 
+        <ProjectCard
+          projectPhoto={BioExtint} 
           projectTitle={'BioExtint'}
-          projectDescription={'Página web con la información importante de la empresa...'}
-          toolOne={'WordPress'}
+          projectDescription={'Se implementó la página web de la organización, integrando el portafolio de productos y servicios para mejorar la visibilidad y el alcance de la empresa.'}
+          toolOne={LogoWordpress}
+          toolTwo={LogoElementor}
         />
         <ProjectCard
           projectPhoto={Alubaq}  
           projectTitle={'Alubaq'}
-          projectDescription={'Empresa de alumbrado público de Barranquilla'}
-          toolOne={'DreamWeaver'}
-          toolTwo={'Vanilla JS'}
-          toolThree={'Apache2'}
+          projectDescription={'Desarrollé y publiqué la página web corporativa de la organización, lo que contribuyó a aumentar en un 15% el índice de daños reparados en menos de 48 horas.'}
+          toolOne={LogoDreamweaver}
+          toolTwo={LogoJS}
         />
       </section>
       <h2 className='frase'>"Odié cada minuto del entrenamiento, pero me dije: 'No te rindas. Sufre ahora y vive el resto de tu vida como un campeón"</h2>

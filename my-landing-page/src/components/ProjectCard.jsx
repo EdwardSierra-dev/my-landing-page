@@ -11,9 +11,8 @@ function ProjectCard (props) {
         <h3 className='project-title'>{props.projectTitle}</h3>
         <p className='project-description'>{props.projectDescription}</p>
         <div className='project-technologies'>
-          <span className='technology'>{props.toolOne}</span>
-          <span className='technology'>{props.toolTwo}</span>
-          <span className='technology'>{props.toolThree}</span>
+          <span className='technology'><img className='tech-icon' src={props.toolOne} alt='Logo Tech' /></span>
+          <span className='technology'><img className='tech-icon' src={props.toolTwo} alt='Logo Tech'/></span>
         </div>
       </div>
     </div>

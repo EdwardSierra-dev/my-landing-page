@@ -33,3 +33,11 @@
 .technology {
   margin-right: 25px;
 }
+
+.project-technologies {
+  display: flex;
+}
+
+.tech-icon {
+  height: 2em;
+}
