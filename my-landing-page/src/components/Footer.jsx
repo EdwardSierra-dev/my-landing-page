@@ -1,11 +1,11 @@
 import React from 'react';
-import '../styles/Footer.css';
+//import '../styles/Footer.css';
 
 function Footer (){
   return (
-    <footer>
-      <div className='footer-container'>
-        <div className='links'>
+    <footer className=''>
+      <div className='footer-container text-center'>
+        <div className='links pb-4'>
           <ul>
             <li><a className='links-footer' href='#about-me-section' target=''>Sobre mi</a></li>
             <li><a className='links-footer' href='#projects-section' target=''>Proyectos</a></li>
@@ -13,7 +13,7 @@ function Footer (){
           </ul>
         </div>
         <div className='rights'>
-          <p>© 2025 Todos los derechos reservados</p>
+          <p className='text-gray-600'>© 2025 Todos los derechos reservados</p>
         </div>
       </div>
     </footer>

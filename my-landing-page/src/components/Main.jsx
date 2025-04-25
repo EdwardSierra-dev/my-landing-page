@@ -125,8 +125,12 @@ function Main () {
           toolTwo={LogoJS}
         />
       </section>
-      <h2 className='frase'>"Odié cada minuto del entrenamiento, pero me dije: 'No te rindas. Sufre ahora y vive el resto de tu vida como un campeón"</h2>
-      <h3 className='author'>Muhammad Ali</h3>
+      <div className='mx-32'>
+        <h2 className='frase italic text-xs'>
+          "Odié cada minuto del entrenamiento, pero me dije: 'No te rindas. Sufre ahora y vive el resto de tu vida como un campeón"
+          </h2>
+        <h3 className='author font-bold text-sm'>Muhammad Ali</h3>
+      </div>
     </main>
   );
 }
